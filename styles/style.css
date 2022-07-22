@@ -7,10 +7,14 @@ White: #FFF
 
 */
 
-body {
+* {
     margin: 0px;
 }
 
+body {
+    font-size: 16px;
+    font-family:'Roboto', sans-serif;
+}
 
 /* NAV BAR */
 nav {
@@ -40,4 +44,73 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+h1 {
+    margin: 1rem;
+    font-weight:
+}
+
+/* WHAT'S ON SPOTIFY */
+
+.whta-s-on-spotify h3 {
+    margin-top: 3.5rem;
+    margin-bottom: 1rem;
+}
+
+.whta-s-on-spotify h4  {
+    margin: 1rem;
+}
+
+#music {
+    height: 10rem;
+}
+
+#sound {
+    height: 10rem;
+}
+
+#devices {
+    height: 10rem;
+}
+
+
+.whta-s-on-spotify {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+/* GREEN SECTION */
+
+.green-section {
+    background-color: #00B172;
+    color: white;
+    padding: 2rem;
+}
+
+.spotify-info {
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.spotify-info h3 {
+    margin: 1rem 0rem 2rem 0rem;
+    text-decoration: underline;
+}
+
+.spotify-info h4 {
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+
+#spotify-app {
+    height: 700px;
 }
